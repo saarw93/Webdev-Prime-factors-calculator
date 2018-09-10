@@ -1,0 +1,9 @@
+#answer {
+    background:  white;
+    border-style: solid;
+    border-color: rgb(170, 162, 162);
+    border-radius: 10px;
+    margin: 20px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 20px;
+}

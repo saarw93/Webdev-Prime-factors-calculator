@@ -1,0 +1,40 @@
+<!doctype html5>
+<html>
+    <head>
+        <title>Prime Factors Calculator</title>
+        
+        <!-- Stylesheets -->
+        <link rel="stylesheet" type="text/css" href="css/Factorization.css"/>
+        <link rel="stylesheet" type="text/css" href="css/Factorization.results.css"/>
+        <link rel="stylesheet" type="text/css" href="css/Factorization.tree.css"/>
+        
+        <!-- third party javascript -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        
+        <!-- Scripts -->
+        <script src="js/Factorization.js"></script>
+        <script src="js/Factorization.results.js"></script>
+        <script src="js/Factorization.tree.js"></script>
+    </head>
+
+    <body>
+    <div class = "wrapper">
+        <header><h1>Prime Factors Calculator</h1></header>
+        <main>
+           <section class = "calculator">
+                       <label for = "txtNum">Enter the Number to Factor</label>
+                       <br/><br/>
+                        <input type="text" id = "txtNum" placeholder= "positive integer"/>
+                        <br/><br/>
+                        <input type = "checkbox" id = "checkbox"/> <span>create a factorization tree</span>
+                        <br/><br/>
+                       <button id = "clear" data-action = "clear" >clear</button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <button id = "calculate" data-action = "calculate" >calculate</button>
+                       <br/><br/><br/><br/>
+                       
+                       
+                       <div id = "answer"> <label for = "answer">Answer: </label><br/><br/> </div>           
+            </section>
+        </main>
+    </div>
+    </body>
+</html>

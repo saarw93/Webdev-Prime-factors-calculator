@@ -1,0 +1,129 @@
+html {
+    width:50%;
+    height: 50%; 
+    display: table;
+    margin: auto;
+}
+
+
+body {
+    text-align: center;
+    height: 100%;
+    padding:0;
+    margin:0;  
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    border-style: ridge;
+    border-color: rgb(146, 129, 129);
+    border-radius: 7px;
+    background-image: linear-gradient( to right, rgb(189, 195, 199) 0%, rgb(236, 240, 241) 40%, rgb(236, 240, 241) 60%, rgb(189, 195, 199) 100%);
+    
+}
+
+
+.calculator {
+    position: relative;
+}
+
+
+h1 {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    text-align: center;
+    color: rgb(185, 198, 211);
+    text-shadow: 0 1px 0 rgb(112, 92, 93);
+    background: rgb(180, 23, 36);
+    margin: 15px;
+    padding: 7px;
+    border-style: solid;
+    border-color: rgb(110, 30, 30);
+    border-radius: 10px;
+}
+
+
+label {
+    padding: 20%;
+    color:rgb(37, 37, 78);
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 24px;
+    padding: 3px;
+}
+
+
+input {
+    text-align: center;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    padding: 3px;
+}
+
+
+span {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 15px;
+}
+
+
+#clear {
+    position: absolute;
+    left: 60px;
+    cursor: pointer;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 18px;
+    color: rgb(41, 42, 43);
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    border-width: 3px;
+    border-style: solid;
+    border-top-color: rgba(255, 255, 255, 0.2);
+    border-left-color: rgba(0, 0, 0, 0.1);
+    border-right-color: rgba(0, 0, 0, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.7);
+}
+
+
+#calculate {
+    position: absolute;
+    right: 60px;
+    cursor: pointer;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 18px;
+    color: rgb(41, 42, 43);
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    border-width: 3px;
+    border-style: solid;
+    border-top-color: rgba(255, 255, 255, 0.2);
+    border-left-color: rgba(0, 0, 0, 0.1);
+    border-right-color: rgba(0, 0, 0, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.7);
+}
+
+
+label[for = answer] {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    position: absolute;
+    left: 60px;
+    height: 30px;
+}
+
+
+#answer {
+    background:  white;
+    border-style: solid;
+    border-color: rgb(170, 162, 162);
+    border-radius: 10px;
+    margin: 20px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 20px;
+}
